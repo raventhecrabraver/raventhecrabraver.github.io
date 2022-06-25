@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript open link without click</title>
+		<style>
+			.gfg {
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+				text-align:center;
+				font-size:40px;
+				font-weight:bold;
+				color:green;
+			}
+		</style>
+		<script>
+            setInterval(myFunction, 1000);
+        
+			function myFunction() {
+				window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+							' ', 'width=690, height=420');
+			}
+		</script>
+	</head>
+	<body>
+		<div class = "gfg" onmouseover = "myFunction()">
+        <p1>
+			THERE IS NO ESCAPE FROM ASTLEY!
+        </p1>
+		</div>
+	</body>
+</html>
